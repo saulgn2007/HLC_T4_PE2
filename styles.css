@@ -1,0 +1,101 @@
+.body{
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #E2E5E7;
+}
+.container{
+    display: flex;
+}
+.menu{
+    background-color: #85CEF0;
+    min-height: 100vh;
+    padding-right: 5%;
+    align-self: flex-start
+    
+}
+
+.btnmenu1{
+    margin: 50px 0px 0px 60px;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnmenu1:hover{
+    background-color: #E2E5E7;
+}
+
+.btnmenu2{
+    margin: 15px 45px 15px 60px;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnmenu2:hover{
+    background-color: #E2E5E7;
+}
+
+.chat{
+    background-color: #F8F8FF;
+    margin-top: 3.5%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    width: 45%;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.265);
+}
+
+.convesacion{
+    overflow-y: auto; height: 100%;
+}
+
+.barraTareas{
+    display: flex;
+    margin-top: 80%;
+    background-color: #E2E5E7;
+    padding: 2%;
+}
+
+.text{
+    width: 75%;
+    border: 1px solid grey ;
+    border-radius: 5px;
+}
+
+.btnchat{
+    padding: 20px;
+    width: 15%;
+    background-color:#F9DC6A;
+    border-radius: 5px;
+    border: 0;
+    height: 50%;
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.btnchat:hover{
+    background-color: #5e4d0b;
+}
+
+.colormsg1{
+    background-color:#EAFFD2;
+    padding: 2%;
+    display: inline-block;
+}
+
+.colormsg2{
+    background-color:#E0F8FC;
+    padding: 2%;
+    display: inline-block;
+}
+
+.oculto {
+    display: none;
+}
