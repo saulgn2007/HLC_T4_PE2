@@ -2,6 +2,7 @@ document.getElementById('btn3').addEventListener('click', function mostrarmensaj
     const container=document.createElement('div');
     const note = document.getElementById('enviarMensaje').value;
     container.textContent=note;
+    conversacion.classList.add('colormsg1')
     document.getElementById('conversacion').appendChild(container)
 });
 
